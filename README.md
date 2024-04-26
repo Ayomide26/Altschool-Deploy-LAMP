@@ -8,9 +8,9 @@
 ![installation](./screenshots/installation.jpg)
 ### This script should clone a PHP application from GitHub, install all necessary packages, and configure Apache web server and MySQL. 
 ![](./screenshots/Master-IP-address.jpg)
-
 ![](./screenshots/Slave-IP-address.png)
 ### Ensure the bash script is reusable and readable.
+![](./screenshots/Master-IP-address.jpg)
 ### Using an Ansible playbook:
 ![](./screenshots/ansible.PNG)
 ![](./screenshots/Playbooks.PNG)
