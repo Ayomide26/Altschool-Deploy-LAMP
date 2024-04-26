@@ -11,5 +11,5 @@
 ![](./screenshots/Slave-IP-address.png)
 ### Ensure the bash script is reusable and readable.
 ### Using an Ansible playbook:
-![](./screenshots/ansible.PNG)
-![](./screenshots/Playbooks.PNG)
+![ansible](./screenshots/ansible.PNG)
+![playbook](./screenshots/Playbooks.PNG)
