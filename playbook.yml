@@ -1,0 +1,26 @@
+---
+- name: Install and Configure LAMP stack and deploy PHP (Laravel) App
+  hosts: all
+
+  tasks:
+    - name: Copy script from master to slave
+      copy:
+        src: ~/script.sh
+        dest: ~/script.sh
+        mode: 0755
+
+    - name: Execute script on slave
+      command: ~/script.sh
+
+    - name: Check if IP address is accessible on browser
+      uri:
+        url: "http://192.168.33.11"
+        method: GET
+      register: response
+
+
+    - name: Add cron job to check server uptime
+      cron:
+        name: "Check Server Uptime"
+        minute: 0
+        hour: 0
