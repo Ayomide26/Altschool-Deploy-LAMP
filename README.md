@@ -10,7 +10,6 @@
 ![](./screenshots/Master-IP-address.jpg)
 ![](./screenshots/Slave-IP-address.png)
 ### Ensure the bash script is reusable and readable.
-![](./screenshots/Master-IP-address.jpg)
 ### Using an Ansible playbook:
 ![](./screenshots/ansible.PNG)
 ![](./screenshots/Playbooks.PNG)
