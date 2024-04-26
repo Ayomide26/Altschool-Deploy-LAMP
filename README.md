@@ -1,5 +1,5 @@
 # Introduction
-
+![](./screenshots/ansible.PNG)
 ### Automate the provisioning of two Ubuntu-based servers, named “Master” and “Slave”, using Vagrant.
 ![installation1](./screenshots/installation1.jpg)
 ![installation1](./screenshots/twoVMs.jpg)
